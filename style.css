@@ -75,11 +75,21 @@ a:visited {
 }
 a:hover {
   color: rgb(63, 47, 47);
+  text-decoration: none;
 }
 a:focus {
   color: rgb(153, 88, 88);
-}
-a:hover,
-a:focus {
+  outline: none;
   text-decoration: none;
+}
+a:active {
+  color: rgb(252, 119, 119);
+}
+a[href="https://en.wikipedia.org/wiki/Examination"],a[href="https://en.wikipedia.org/wiki/Jobs"],a[href="https://en.wikipedia.org/wiki/Career"],a[href="https://en.wikipedia.org/wiki/Emotion"]
+{
+  background-image: url(external-link-52.png);
+  background-size: 12px 12px;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 20px;
 }
