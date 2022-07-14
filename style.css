@@ -50,8 +50,17 @@ footer {
 /* WRITE YOUR CODE BELOW HERE */
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 10px;
+  line-height: 2;
+  letter-spacing: 1px;
+  word-spacing: 2px;
 }
 h1,
 h2 {
   font-family: "Times New Roman", Times, serif;
+  letter-spacing: 2px;
+}
+
+h1 {
+  text-align: center;
 }
